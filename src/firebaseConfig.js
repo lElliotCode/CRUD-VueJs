@@ -6,7 +6,7 @@ import { getFirestore} from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCSpq6iiphvT1IY3FubS0FnMWcO3G0lqZU",
+    apyKey: process.env.APY_KEY,
     authDomain: "vue-crud-32bdb.firebaseapp.com",
     projectId: "vue-crud-32bdb",
     storageBucket: "vue-crud-32bdb.firebasestorage.app",
