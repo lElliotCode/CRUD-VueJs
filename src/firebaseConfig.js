@@ -7,11 +7,11 @@ import { getFirestore} from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apyKey: process.env.APY_KEY,
-    authDomain: "vue-crud-32bdb.firebaseapp.com",
-    projectId: "vue-crud-32bdb",
-    storageBucket: "vue-crud-32bdb.firebasestorage.app",
-    messagingSenderId: "375621105256",
-    appId: "1:375621105256:web:cd41403ada06f52d97eddd",
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
+    appId: process.env.APP_ID
 };
 
 // Initialize Firebase
